@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/menubackground"
+    tools:context="com.superjb.mycolloc.RegisterActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPseudo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="Pseudo (*)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="Mot de Passe (*)"
+        android:layout_below="@+id/etPseudo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enregistrer"
+        android:id="@+id/bRegister"
+        android:layout_marginTop="39dp"
+        android:backgroundTint="#fbafaf"
+        android:layout_below="@+id/etClefAdministrateur"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etRepeatPassword"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="Repetez le Mot de Passe (*)" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/etRepeatPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/bRegister"
+        android:layout_alignEnd="@+id/bRegister"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="Email (*)" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/etDdn"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_alignEnd="@+id/etEmail"
+        android:hint="Date de naissance (*) : YYYY-MM-DD"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:maxLength="10" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etURIConstellation"
+        android:layout_below="@+id/etDdn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/etDdn"
+        android:layout_alignEnd="@+id/etDdn"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="URI Constellation" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etClefAdministrateur"
+        android:layout_below="@+id/etURIConstellation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/bRegister"
+        android:layout_alignEnd="@+id/bRegister"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="Clef Administrateur" />
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/menubackground"
+    tools:context="com.superjb.mycolloc.HomeLessActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejoindre une coloc"
+        android:id="@+id/bLogin"
+        android:layout_marginTop="38dp"
+
+        android:layout_below="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/etPassword"
+        android:layout_alignEnd="@+id/etPassword"
+        android:backgroundTint="#fbafaf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Faire une nouvelle Coloc ici !"
+        android:id="@+id/tvRegister"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/bLogin"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPseudo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Nom de la Coloc"
+        android:layout_alignRight="@+id/etPassword"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:layout_alignEnd="@+id/etPassword"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:layout_below="@+id/etPseudo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="#80ffffff"
+        android:textColor="#ffffff"
+        android:hint="Mot de passe de la Coloc"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
