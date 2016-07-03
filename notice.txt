@@ -1,0 +1,8 @@
+Prérequis
+1/ Avoir un server Constellation intallé
+2/ Avoir installé le Package MyColoc sur la Constellation
+
+Mise en place 
+3/ Inscrivez vous sur http://mycoloc.eu en renseignant l'URI et la clé administrateur de votre constellation
+  Vos colocataires doivent faire de même. 
+4/ Gérez votre coloc' sur le site ou sur l'application en téléchargeant notre application Android.
