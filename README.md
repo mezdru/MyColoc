@@ -1,2 +1,1 @@
-"# MyColoc" 
-"# MyColoc" 
+MyColoc est une solution de gestion de colocation. L'ensemble est constitué d'un site http://mycoloc.eu et d'une application (disponible prochainement). Le tout est basé sur un serveur constellation permettant la communication entre les différents éléments. Un serveur constellation permet de créer une colocation à l'aide d'un package dont le code se trouve dans ce dossier.
